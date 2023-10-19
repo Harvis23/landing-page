@@ -106,7 +106,7 @@ img{
 /*section--2*/
 
 .section--2{
-    background-color: #dfe9f8;
+    background-color: #f1f8ff;
     padding-left: 150px;
     padding-right: 150px;
     padding-top: 80px;
@@ -134,6 +134,10 @@ img{
     gap: 50px;
 }
 
+.worker-name{
+    font-weight: 700;
+}
+
 .info{
     display: flex;
     flex-direction: column;
@@ -143,4 +147,36 @@ img{
 
 .position, .worker-name{
     color: #1f2937;
+}
+
+/*section-3*/
+
+.section--3{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: #e5e7eb;
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+
+.quote-section{
+    display: flex;
+    flex-direction: column;
+    align-items: end;
+    gap: 25px;
+
+    
+
+}
+.quote{
+    font-size: 36px;
+    font-style: italic;
+    color: #1f2937;
+}
+
+.author{
+    font-size: 15px;
+    color: #000000;
+    font-weight: 500;
 }
