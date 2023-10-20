@@ -190,7 +190,7 @@ img{
     padding-bottom: 30px;
     padding-left: 80px;
     padding-right: 80px;
-    gap: 25px;
+    gap: 80px;
     background-color: #3882f6;
     border-radius: 20px;
     
@@ -199,7 +199,7 @@ img{
 .cta_textBox{
     display: flex;
     flex-direction: column;
-    gap: 20px;
+    color: #e5e7eb;
 
 }
 
